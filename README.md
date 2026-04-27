@@ -135,6 +135,7 @@ Purpose: Moves logs older than 7 days to an archive and compresses them.
 # 9. Git Auto Pull
 
 ```
+
 #!/bin/bash
 
 cd /home/ubuntu/my-repo
