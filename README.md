@@ -1,8 +1,9 @@
 # Why shell-scripting-for-devops?
 
-. Automates server setups(e.g - install packages, configure services)
+. Automates server setups (e.g - install packages, configure services)
 
 # Basic Shell Script Structure
+
 ```
 #!/bin/bash
 
@@ -11,6 +12,7 @@ echo "Hello, Devops!"
 ```
 
 # 1. Install Packages
+
 ```
 #!/bin/bash
 sudo apt update && sudo apt install -y nginx
@@ -18,6 +20,7 @@ sudo apt update && sudo apt install -y nginx
 ```
 
 # 2. Monitor Disk Usages
+
 ```
 #!/bin/bash
 
@@ -28,6 +31,7 @@ purpose: server disk space usages to file for review later
 ```
 
 # 3. Backup files
+
 ```
 #!/bin/bash
 
