@@ -40,7 +40,9 @@ tar -czf backup_$(date +%F).tar.gz/path/to/directory
 Purpose: Compresses a directory into a .tar.gz backup file with the current date.
 
 ```
+
 # 4. Jenkins Job Trigger
+
 ```
 #!/bin/bash
 
@@ -53,6 +55,7 @@ Purpose: Triggers a Jenkins CI job remotely using a POST request and authenticat
 ```
 
 # 5. Docker Container Health Check
+
 ```
 #!/bin/bash
 
