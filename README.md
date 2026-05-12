@@ -15,7 +15,14 @@ echo "Hello, Devops!"
 
 ```
 #!/bin/bash
-sudo apt update && sudo apt install -y nginx
+
+read -p "Enter name of package" Package_Name
+sudo apt-get update
+sudo apt-get install $Package_Name  -y
+
+read -p "Enter name of Service Name" Service_Name
+sudo systemctl start $Service_Name
+sudo systemctl status Service_Name
 
 ```
 
