@@ -26,6 +26,28 @@ sudo systemctl status Service_Name
 
 ```
 
+```
+#!bin/bash
+# if condition -> is used to check whether this  or that
+
+a= 20
+b=10
+
+if [ $a -gt $b ]; then              #gt means greater than
+   echo "$a is bigger"
+else
+    echo "$b is bigger"
+fi
+
+read -p "Enter the file path which to be found" file_path
+if [ -f file_path ]; then
+   echo "file exist"
+else
+    echo "file does not exist"
+fi
+
+```
+
 # 2. Monitor Disk Usages
 
 ```
